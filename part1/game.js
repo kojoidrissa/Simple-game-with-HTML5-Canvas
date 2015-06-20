@@ -24,7 +24,7 @@ for (var i = 0; i < howManyCircles; i++)
 
 var DrawCircles = function(){
 	for (var i = 0; i < howManyCircles; i++) {
-		ctx.fillStyle = 'rgba(255, 255, 255, ' + circles[i][3] + ')';
+		ctx.fillStyle = 'rgba(1, 255, 255, ' + circles[i][3] + ')';
 		ctx.beginPath();
 		ctx.arc(circles[i][0], circles[i][1], circles[i][2], 0, Math.PI * 2, true);
 		ctx.closePath();
